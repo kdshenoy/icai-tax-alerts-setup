@@ -1,0 +1,19 @@
+Here’s a ready-to-go prompt you can share with students to paste into Perplexity-Pro:
+
+“I need to build an Android app that scrapes notifications, circulars, updates, and amendments from India’s Income-Tax and GST department websites and pushes them to users via Firebase Cloud Messaging.
+
+List every Android SDK, Java/Kotlin library, Gradle plugin, Python/Node.js package, and CLI tool required to:
+
+Fetch and parse HTML (e.g. Jsoup, Cheerio)
+
+Handle authentication or CAPTCHA on government sites
+
+Schedule background scraping jobs reliably (e.g. WorkManager, cron)
+
+Send FCM push notifications
+
+Bundle everything into a single APK
+
+Include exact Maven/Gradle artifact coordinates or npm package names.
+
+Group prerequisites by frontend (Android) vs. backend (Cloud Functions) vs. CLI tools.”
