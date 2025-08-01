@@ -1,0 +1,25 @@
+{
+  "name": "icai-tax-alerts-setup",
+  "version": "1.0.0",
+  "description": "Scripts \\& instructions to install Node.js, Firebase CLI, Git, JDK \\& Android Studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdshenoy/icai-tax-alerts-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdshenoy/icai-tax-alerts-setup/issues"
+  },
+  "homepage": "https://github.com/kdshenoy/icai-tax-alerts-setup#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "firebase-admin": "^13.4.0",
+    "firebase-functions": "^6.4.0"
+  }
+}
