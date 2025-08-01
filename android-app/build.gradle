@@ -1,0 +1,24 @@
+﻿plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.icaitaxalerts"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+    implementation 'org.jsoup:jsoup:1.15.3'
+    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+}
